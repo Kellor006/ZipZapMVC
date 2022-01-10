@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #6697be;
+    --seconday-color: #b65c90;
+    --dark-color: #303036;
+    --white-color: #cae9eb;
+    --footer-color: #20292c;
+}
+
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+}
+
+body {
+    color: var(--dark-color);
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color)
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif 
+    
+}
+
+footer {
+    padding-right: 1rem;
+    width: 100%;
+    bottom: 0;
+}
+
+.bsicon {
+    color: #8112fa;
+}
+
+.jsicon {
+    color: #f0db4f;
+}
+
+.html5icon {
+    color: #e96228;
+}
+
+.cssicon {
+    color: #0066b6;
+}
+
+.checklist > li i {
+    color: var(--seconday-color)
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.pixelText {
+    font-family: 'VT323', monospace;
+}
+
+.pixelTextNav {
+    font-family: 'VT323', monospace;
+    font-size: 130%;
+}
+
+.appText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--dark-color)
+}
+
+main > .container 
+{
+    padding: 60px 15px 0;
+}
